@@ -1,0 +1,13 @@
+{
+ "type": "RABBITMQ",
+ "uri": "amqp://guest:guest@localhost/",
+ "exchange": "logs",
+ "queuePattern": null,
+ "queueMap": {
+  "default": "logs.info",
+  "30": "logs.info",
+  "40": "logs.warn",
+  "50": "logs.error"
+ },
+ "fields": []
+}
